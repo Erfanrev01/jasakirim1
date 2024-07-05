@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    background-color: #f0f8ff; /* Warna latar belakang tubuh halaman */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    padding: 20px 0; /* Padding atas dan bawah pada header */
+    width: 100%; /* Lebar penuh header */
+}
+
+main {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    flex-direction: column; /* Kolom sebagai arah utama flexbox */
+    align-items: center; /* Menyusun item di tengah secara horizontal */
+    padding: 20px; /* Padding di sekitar konten utama */
+    margin-top: 20px; /* Margin atas untuk memberi ruang antara header dan konten utama */
+}
+
+section {
+    background-color: #ffffff; /* Warna latar belakang section */
+    padding: 20px; /* Padding di dalam section */
+    border: 1px solid #ddd; /* Border section */
+    width: 80%; /* Lebar section */
+    max-width: 500px; /* Lebar maksimal section */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 10px; /* Margin bawah pada label */
+    color: #555; /* Warna teks label */
+}
+
+input[type="number"] {
+    padding: 10px; /* Padding di dalam input */
+    border: 1px solid #ccc; /* Border input */
+    width: calc(100% - 22px); /* Penyesuaian lebar input */
+    margin-bottom: 10px; /* Margin bawah untuk jarak dengan tombol */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border tombol */
+}
+
+#result {
+    margin-top: 20px; /* Margin atas pada hasil */
+    font-size: 1.2em; /* Ukuran font hasil */
+    color: #333; /* Warna teks hasil */
+    background-color: #e0f7fa; /* Warna latar belakang hasil */
+    padding: 10px; /* Padding di dalam hasil */
+    border: 1px solid #ddd; /* Border hasil */
+}
